@@ -1,0 +1,44 @@
+body {
+  background-color: #ffb3b3;
+  color: 	 #002b80;
+  font-family: "Helvetica", sans-serif;
+}
+
+li {
+padding: 30px;
+background-color: white;
+font-size: 30px;
+width: 15%;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+li:hover {
+  opacity: 0.5;
+  border: 2px solid navy;
+
+}
+
+ul {
+  display: flex;
+justify-content: space-around;
+list-style: none;
+  }
+
+h1 {
+  text-align: right;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-size: 60px;
+  text-decoration: underline overline;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: overline;
+  font-size: 45px;
+}
